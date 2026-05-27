@@ -12,6 +12,7 @@
 .hero__left-block {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .hero__title {
@@ -34,6 +35,21 @@
   gap: 25px;
   align-items: center;
   margin-bottom: 94px;
+}
+
+.social__list::after {
+  align-self: center;
+  content: '';
+  margin-left: 10px;
+  width: 140px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.hero__decor-stamp {
+  position: absolute;
+  top: -155px;
+  left: -70px;
 }
 
 .hero__right-block {
@@ -81,11 +97,11 @@
 .hero__decor2 {
   position: absolute;
   top: -510px;
-  left: -518px;
+  left: -418px;
 }
 
 .hero__decor3 {
   position: absolute;
-  top: -488px;
-  left: -457px;
+  top: -388px;
+  left: -357px;
 }
