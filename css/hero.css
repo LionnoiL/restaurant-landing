@@ -1,0 +1,91 @@
+.hero {
+  max-width: 1512px;
+  margin: 0 auto;
+}
+
+.hero .container {
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 158px;
+}
+
+.hero__left-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.03;
+  color: #101a24;
+  margin-bottom: 69px;
+  max-width: 510px;
+}
+
+.hero__description {
+  margin-bottom: 47px;
+  max-width: 376px;
+}
+
+.hero__left-block-btns {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin-bottom: 94px;
+}
+
+.hero__right-block {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero__main-img {
+  border-radius: 80px 35px;
+  z-index: 2;
+}
+
+.hero__second-img {
+  position: absolute;
+  bottom: 20px;
+  left: -210px;
+  z-index: 3;
+}
+
+.hero__decor-branch3 {
+  position: absolute;
+  top: -83px;
+  left: -170px;
+}
+
+.hero__decor-leaf {
+  position: absolute;
+  top: -120px;
+  right: -120px;
+}
+
+.hero__decor-branch2 {
+  position: absolute;
+  bottom: 20px;
+  right: -160px;
+}
+
+.hero__decor1 {
+  position: absolute;
+  top: -450px;
+  left: -538px;
+}
+
+.hero__decor2 {
+  position: absolute;
+  top: -510px;
+  left: -518px;
+}
+
+.hero__decor3 {
+  position: absolute;
+  top: -488px;
+  left: -457px;
+}

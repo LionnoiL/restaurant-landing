@@ -1,0 +1,27 @@
+.header {
+  max-width: 1512px;
+  margin: 0 auto;
+}
+
+.header .container {
+  padding-block: 41px;
+}
+
+.logo {
+  margin-bottom: 15px;
+}
+
+.header__nav {
+  margin-left: auto;
+  margin-right: 192px;
+}
+
+.heafer_nav-list {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+
+.header__nav-link {
+  color: #5c6574;
+}

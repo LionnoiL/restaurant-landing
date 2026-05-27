@@ -3,7 +3,174 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Restaurant</title>
   </head>
-  <body></body>
+  <body>
+    <!-- #region Header-->
+    <header class="header">
+      <div class="container">
+        <a class="logo" href="#">
+          <img src="./images/logo.webp" alt="logo" width="198" height="55">
+        </a>
+
+        <nav class="header__nav">
+          <ul class="heafer_nav-list">
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">Menu</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">Events</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">Gallery</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">About</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button type="button" class="book-table-btn" id="header-book-table-btn">
+          Book a table
+        </button>
+      </div>
+    </header>
+    <!-- #endregion -->
+
+    <!-- #region Main-->
+    <main class="main">
+      <!-- #region Hero-->
+      <section id="hero" class="hero">
+        <div class="container">
+          <div class="hero__left-block">
+            <h1 class="hero__title">We provide the best food for you</h1>
+            <p class="hero__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="hero__left-block-btns">
+              <button type="button" class="menu-btn" id="hero-menu-btn">
+                Menu
+              </button>
+              <button
+                type="button"
+                class="book-table-btn"
+                id="hero-book-table-btn"
+              >
+                Book a table
+              </button>
+            </div>
+            <div class="socials">
+              <ul class="sicial__list">
+                <li class="social__item">
+                  <a href="#" class="social__link">
+                    <img
+                      src="./images/facebook.png"
+                      alt="facebook"
+                      width="29"
+                      height="29"
+                    >
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link">
+                    <img
+                      src="./images/instagram.png"
+                      alt="instagram"
+                      width="29"
+                      height="29"
+                    >
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link">
+                    <img
+                      src="./images/twitter.png"
+                      alt="twitter"
+                      width="29"
+                      height="29"
+                    >
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="hero__right-block">
+            <img
+              class="hero__second-img"
+              width="364"
+              height="364"
+              src="./images/dish-2-1.webp"
+              alt="plate of salad"
+            >
+
+            <img
+              class="hero__decor-branch3"
+              src="./images/branch3.webp"
+              alt="branch"
+              width="448"
+              height="192"
+              aria-hidden="true"
+            >
+
+            <img
+              class="hero__decor-leaf"
+              src="./images/leaf.webp"
+              alt="branch"
+              width="315"
+              height="300"
+              aria-hidden="true"
+            >
+
+            <img
+              class="hero__decor-branch2"
+              src="./images/branch2.webp"
+              alt="branch"
+              width="252"
+              height="342"
+              aria-hidden="true"
+            >
+
+            <img
+              class="hero__main-img"
+              width="516"
+              height="712"
+              src="./images/hall.webp"
+              alt="restaurant hall"
+            >
+          </div>
+        </div>
+
+        <div class="hero__decor1 circle"></div>
+        <div class="hero__decor2 circle"></div>
+        <div class="hero__decor3 circle"></div>
+      </section>
+      <!-- #endregion -->
+    </main>
+    <!-- #endregion -->
+
+    <!-- #region Footer-->
+    <footer class="footer">
+      <div class="container"></div>
+    </footer>
+    <!-- #endregion -->
+  </body>
 </html>
