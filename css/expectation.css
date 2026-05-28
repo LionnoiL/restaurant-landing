@@ -1,0 +1,62 @@
+.expectation {
+  max-width: 1512px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.expectation .container {
+  padding-block: 124px;
+}
+
+.expectation__left-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.expectation__title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.08;
+  color: #101a24;
+}
+
+.expectation__description {
+  color: #5c6574;
+}
+
+.expectation__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 74px;
+  row-gap: 33px;
+  margin-top: 20px;
+}
+
+.expectation__item {
+  display: flex;
+  column-gap: 10px;
+  width: calc((100% - 74px) / 2);
+}
+
+.expectation__item svg {
+  margin-top: 5px;
+}
+
+.expectation__left-block-btns {
+  margin-bottom: 20px;
+}
+
+.expectation__decor-garlic {
+  position: absolute;
+  top: 70px;
+  left: 125px;
+}
+
+.expectation__decor-garlic2 {
+  position: absolute;
+  top: 90px;
+  left: -75px;
+  transform: rotate(270deg);
+}

@@ -1,0 +1,99 @@
+.welcome {
+  max-width: 1512px;
+  margin: 0 auto;
+  background-color: #f3f4f4;
+  overflow: hidden;
+}
+
+.welcome .container {
+  padding-top: 90px;
+  padding-bottom: 330px;
+  flex-direction: row;
+  column-gap: 25px;
+  position: relative;
+}
+
+.welcome__left-block {
+  position: relative;
+}
+
+.welcome__decor-leaf2 {
+  position: absolute;
+  top: 63px;
+  right: -29px;
+  z-index: 1;
+}
+
+.welcome__decor-leaf3 {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  z-index: 1;
+}
+
+.welcome__decor-leaf4 {
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+  z-index: 1;
+}
+
+.welcome__decor-leaf5 {
+  position: absolute;
+  bottom: 40px;
+  left: 350px;
+  z-index: 1;
+}
+
+.welcome__right-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  position: relative;
+}
+
+.welcome__title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.08;
+  color: #101a24;
+}
+
+.welcome__description {
+  color: #5c6574;
+}
+
+.welcome__decor-branch3 {
+  position: absolute;
+  top: 6px;
+  left: 540px;
+  z-index: 0;
+}
+
+.welcome__decor-leaf {
+  position: absolute;
+  top: -117px;
+  left: -38px;
+}
+
+.welcome__decor-branch {
+  position: absolute;
+  bottom: 520px;
+  right: -310px;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.welcome__decor-garlic1 {
+  position: absolute;
+  bottom: 0;
+  left: -100px;
+  transform: rotate(275deg);
+}
+
+.welcome__decor-garlic2 {
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+}

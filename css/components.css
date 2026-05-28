@@ -1,3 +1,9 @@
+.buttons-group {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
 .book-table-btn {
   border: none;
   background-color: #ea6d27;

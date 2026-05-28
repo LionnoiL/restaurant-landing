@@ -31,9 +31,6 @@
 }
 
 .hero__left-block-btns {
-  display: flex;
-  gap: 25px;
-  align-items: center;
   margin-bottom: 94px;
 }
 
