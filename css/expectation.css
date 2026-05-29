@@ -2,6 +2,7 @@
   max-width: 1512px;
   margin: 0 auto;
   position: relative;
+  overflow: hidden;
 }
 
 .expectation .container {
