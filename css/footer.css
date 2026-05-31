@@ -4,7 +4,7 @@
 }
 
 .footer .container {
-  padding-top: 240px;
+  padding-top: 270px;
   position: relative;
   overflow: hidden;
   flex-direction: column;
@@ -26,9 +26,19 @@
   width: 100%;
 }
 
+.footer__main {
+  position: relative;
+}
+
+.footer__main .logo {
+  position: absolute;
+  top: -25px;
+  left: 0;
+}
+
 .footer__main-description {
   color: #5c6574;
-  margin-top: 21px;
+  margin-top: 45px;
   max-width: 408px;
 }
 
@@ -123,7 +133,7 @@
 }
 
 .social__list {
-  margin-top: 10px;
+  margin-top: 11px;
 }
 
 .footer__bottom-block {
