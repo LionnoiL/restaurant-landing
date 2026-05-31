@@ -34,7 +34,7 @@
   margin-bottom: 94px;
 }
 
-.social__list::after {
+.hero .social__list::after {
   align-self: center;
   content: '';
   margin-left: 10px;

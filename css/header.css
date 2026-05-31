@@ -24,4 +24,10 @@
 
 .header__nav-link {
   color: #5c6574;
+  transition: color 250ms ease;
+}
+
+.header__nav-link:hover,
+.header__nav-link:focus {
+  color: #101a24;
 }
